@@ -1,0 +1,21 @@
+distances:
+  parking: 0
+  encoder: 0
+  extruder: 0
+  coolingTube: 0
+  hotend: 0
+loadingSequence: []
+selectorServoAngles:
+  up: 154
+  down: 75
+filamentCutterServoAngles:
+  up: 20
+  down: 117
+speeds:
+  extruderYank: 220
+  filamentInExtruderTest: 15
+  preciseFilamentMove: 20
+  roughFilamentMove: 150
+accelerations:
+  feeder: 2000
+  selector: 600
