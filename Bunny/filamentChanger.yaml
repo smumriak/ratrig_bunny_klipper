@@ -3,19 +3,25 @@ distances:
   encoder: 0
   extruder: 0
   coolingTube: 0
+  cutter: 0
   hotend: 0
 loadingSequence: []
 selectorServoAngles:
   up: 154
   down: 75
 filamentCutterServoAngles:
-  up: 20
+  up: 27
   down: 117
-speeds:
-  extruderYank: 220
-  filamentInExtruderTest: 15
-  preciseFilamentMove: 20
+filamentSpeeds:
+  filamentInExtruderTest: 30
+  preciseFilamentMove: 30
+  semiPreciseFilamentMove: 60
   roughFilamentMove: 150
+  extruderYank: 220
+  purge: 270
+movementSpeeds:
+  selectorHomingTest: 10
 accelerations:
   feeder: 2000
   selector: 600
+purgeLength: 70
